@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(168, 139, 231);
+    font-style: italic;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    display: grid;
+}
+
+.grid-item button {
+    padding: 99px;
+    margin: 10px;
+    border-radius: 25px;
+    overflow: hidden;
+    font-size: 125%;
+    background-color: rgb(165, 146, 204);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#Hobby {
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    position: none;
+    transform: scale(none);
+    left: none;
+    right: none;
+    width: none;
+    height: none;
+    z-index: none;
+}
+
+#Flower {
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    position: none;
+    transform: scale(none);
+    left: none;
+    right: none;
+    width: none;
+    height: none;
+    z-index: none;
+}
+
+#Color {
+    background-image: none;
+    background-position: center;
+    background-size: contain;
+    position: none;
+    transform: scale(none);
+    left: none;
+    right: none;
+    width: none;
+    height: none;
+    z-index: none;
+}
+
+#Season {
+    background-image: none;
+    background-position: center;
+    background-size: contain;
+    position: none;
+    transform: scale(none);
+    left: none;
+    right: none;
+    width: none;
+    height: none;
+    z-index: none;
+}
+
+#Character {
+    background-image: none;
+    background-position: center;
+    background-size: contain;
+    position: none;
+    transform: scale(none);
+    left: none;
+    right: none;
+    width: none;
+    height: none;
+    z-index: none;
+}
+
+#Dessert {
+    background-image: none;
+    background-position: center;
+    background-size: contain;
+    position: none;
+    transform: scale(none);
+    left: none;
+    right: none;
+    width: none;
+    height: none;
+    z-index: none;
+}
+
+#Food {
+    background-image: none;
+    background-position: center;
+    background-size: contain;
+    position: none;
+    transform: scale(none);
+    left: none;
+    right: none;
+    width: none;
+    height: none;
+    z-index: none;
+}
+
+#Place {
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    position: none;
+    transform: scale(none);
+    left: none;
+    right: none;
+    width: none;
+    height: none;
+    z-index: none;
+}
+
+#TimeOfDay {
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    position: none;
+    transform: scale(none);
+    left: none;
+    right: none;
+    width: none;
+    height: none;
+    z-index: none;
+}
+
+.grid-item button:hover {
+    transform: scale(1.05);
+    background-color: burlywood;
+}
